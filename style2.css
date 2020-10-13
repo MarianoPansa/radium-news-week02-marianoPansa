@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'nyt-cheltenham-italic';
+    src: url('assets/cheltenham-italic-400.b8fcda1bedf33a4ad1e4d11fac428e3a.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'nyt-cheltenham-normal';
+    src: url('assets/cheltenham-normal-300.cecc961ed849c01655ce98886cb1ab47.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'nyt-imperial';
+    src: url('assets/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'nyt-franklin';
+    src: url('assets/franklin-normal-300.d1bf0bccfda41b1a77ea392b7a26d4cf.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+}
+
+#body {
+    margin: 28% 28%;
+    font-size: 20.5px;
+    color: #333;
+    line-height: 30px;
+}
+
+.main-title{
+    color: #121212;
+    font-family: 'nyt-cheltenham-italic', georgia,'times new roman',times,serif;
+    font-size: 39.2px;
+    text-align: left;
+    line-height: 42px;
+    padding-bottom: 0px;
+}
+
+.subtitle {
+    color:#333;
+    font-family: 'nyt-cheltenham-normal',georgia,'times new roman',times,serif;
+    font-weight: 150;
+    text-align: left;
+    font-size: 22.8px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.image-01 {
+    color: #666;
+    font-family: 'nyt-imperial', georgia,'times new roman',times,serif;
+    font-size: 15.2px;
+    margin-bottom:38px;
+}
+
+.image-01 img {
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.image-01 small {
+    color: #888;
+    font-size: 13px;
+}
+
+.image-01 figcaption {
+    line-height: 21px;
+    padding: 1px;
+    margin-top: 1px;
+}
+
+
+.image-02 img {
+    width: 71%;
+    margin-left: 83px;
+    margin-top: 18px;
+}
+
+.image-02 figcaption {
+    line-height: 21px;
+    padding: 1px;
+    margin-top: 1px;
+    color: #888;
+    font-family: 'nyt-imperial', georgia,'times new roman',times,serif;
+    font-size: 13px;
+    margin-left: 83px;
+    margin-bottom: 34px;
+}
+
+.image-03 img {
+    width: 100%;
+    margin-top: 18px;
+}
+
+.image-03 figcaption {
+    line-height: 21px;
+    padding: 1px;
+    margin-top: 1px;
+    color: #888;
+    font-family: 'nyt-imperial', georgia,'times new roman',times,serif;
+    font-size: 13px;
+    margin-bottom: 34px;
+}
+
+.date {
+    font: inherit;
+    font-family: 'nyt-imperial',georgia,'times new roman',times,serif;
+    color: #333;
+    font-size: 14px;
+}
+
+
+.author {
+    font-family: 'nyt-imperial',georgia,'times new roman',times,serif;
+    color: #333;
+    font-weight: 650;
+    font-size: 14px;
+    display: flex;
+}
+
+.author a{
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    color:#333;
+}
+
+.author a:hover {
+    text-decoration: none;
+}
+
+.main-content {
+    font-family: 'nyt-imperial',georgia,'times new roman',times,serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 19.8px;
+}
+
+.link {
+    color: #326891;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+footer {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 550;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif
+}
+
+footer a {
+    margin-top: 0px;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+}
+
+.footer-bottom {
+    font-size: 12px;
+    line-height: 15px;
+    color: #666;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+}
+
+.footer-bottom a{
+    color: #666;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+}
+
+.week01-reference {
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    color: white;
+    display: block;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 15px;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.week01-reference:hover {
+    background-color: rgb(175, 23, 23);
+    color: white;
+}
